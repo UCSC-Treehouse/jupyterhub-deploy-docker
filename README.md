@@ -9,6 +9,11 @@
 
 # jupyterhub-deploy-docker
 
+## (For UCSC Treehouse)
+This fork should be used to deploy the UCSC Treehouse student Jupyterhub.
+It contains treehouse-internal env customization.
+It runs on port 44300; edit docker-compose.yml to change this.
+
 **jupyterhub-deploy-docker** provides a reference
 deployment of [JupyterHub](https://github.com/jupyter/jupyterhub), a
 multi-user [Jupyter Notebook](http://jupyter.org/) environment, on a
